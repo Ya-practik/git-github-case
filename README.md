@@ -11,8 +11,15 @@ git clone git@github.com:YandexPraktikum/first-project.git
 (от англ. clone, «клон», «копия») — склонируй репозиторий с URL first-project.git из аккаунта YandexPraktikum на мой локальный компьютер.
 
 ### Создание веток
-git branch feature/the-finest-branch (от англ. branch, «ветка») — создай ветку от текущей с названием feature/the-finest-branch;
-git checkout -b feature/the-finest-branch — создай ветку feature/the-finest-branch и сразу переключись на неё.
+```
+git branch feature/the-finest-branch 
+```
+(от англ. branch, «ветка») — создай ветку от текущей с названием feature/the-finest-branch;
+```
+git checkout -b feature/the-finest-branch
+```
+ — создай ветку feature/the-finest-branch и сразу переключись на неё.
+
 ### Навигация по веткам
 git branch (от англ. branch, «ветка») — покажи, какие есть ветки в репозитории и в какой из них я нахожусь (текущая ветка будет отмечена символом *);
 git branch -a — покажи все известные ветки, как локальные (в локальном репозитории), так и удалённые (в origin, или на GitHub).
